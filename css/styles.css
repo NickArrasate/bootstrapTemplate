@@ -1,10 +1,143 @@
-.newPanel{
-
-  background: #eee;
+body{
+  background-color: #000;
+  background-image: url("http://www.bagdadmovies.com/images/bagdad_movies/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: white;
 }
+.navbar ul li{
+  display: inline;
+}
+.navbar-default .navbar-nav li a {
+  color: #da7e25;
+  line-height: 97px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar-header .navbar-toggle{
+  border:none;
+  background: none;
+}
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus{
+  background: none;
+}
+.navbar-header .navbar-toggle .icon-bar{
+ background-color: #da7e25;
+}
+.navbar-collapse .in{
+  border: none;
+  background-color: white;
+}
+.container{
+  max-width: 940px;
+}
+.navbar-brand{
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 265px;
+  height: 57px;
+  margin-top: 20px;
+}
+.navbar{
+  background-color: rgba(0,0,0,0.55);
+  border: none;
+  min-height: 97px;
+  padding: 0;
+  margin: 0;
+}
+.navbar-collapse{
+  color:red;
+  margin-right: 0;
+}
+#sidebar{
+padding: none;
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img{
-width: 100%; /* use this, or not */
-margin: auto;
+}
+.marquee img{
+  max-width: 100%;
+  background: rgba(0,0,0, .4)
+}
+#mainContent{
+  margin-top: 20px;
+  border: solid 1px grey;
+  background: rgba(0,0,0,.4);
+  padding: 25px 25px;
+}
+.quickTicket{
+  margin-top:15px;
+}
+.quickTicketTimes{
+  text-align: center;
+  border: solid 1px grey;
+  padding: 4px 14px 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgba(90,90,90,.4)
+}
+.quickTicketTimes .row{
+  max-width: 100%;
+  margin: 0 auto;
+}
+.time {
+  height: 47px;
+  max-width: 100%;
+  padding: 4px 10px;
+  background: #DA7E25;
+  border: solid 6px transparent;
+  background-clip:padding-box;
+  box-shadow: inset 0px -5px 0px 0px rgba(145,87,0,1);
+}
+.nowPlaying{
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+.comingSoon {
+  border-bottom: 1px solid grey;
+}
+.prices {
+  border-bottom: 1px solid grey;
+  padding-bottom: 30px;
+}
+.poster {
+  margin-bottom: 40px;
+}
+.poster img{
+  max-width: 100%;
+}
+.movieInfo h4{
+  padding-left: 0;
+}
+.movieInfo a{
+  color: darkorange;
+  font-size: 12pt;
+  font-weight: 200;
+}
+.movieInfo p{
+  font-size: 12pt;
+  font-weight: 200;
+  margin-top: 20px;
+}
+.mapDisplay{
+  width: 100%;
+}
+.mapDisplay img{
+  max-width: 100%;
+}
+.trailerButton{
+  font-size: 12pt;
+  text-align: center;
+  height: 40px;
+  width: 135px;
+  padding: 8px 10px;
+  background: #DA7E25;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  box-shadow: inset 0px -5px 0px 0px rgba(145,87,0,1);
+}
+.cleafix{
+  display: table;
+  content: '';
+  clear: both;
 }

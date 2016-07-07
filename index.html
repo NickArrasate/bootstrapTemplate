@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap 101 Template</title>
+  <title>Bagdad Theater (copy)</title>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <div class="container">
-    <div class="navbar navbar-default" role="navigation">
+  <div class="navbar navbar-default" role="navigation">
+    <div class="container">
       <div class="navbar-header">
         <button type="button" class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
           <span class="sr-only">Toggle navigation</span>
@@ -20,116 +20,160 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <span class="navbar-brand">Demo</span>
+        <span class="navbar-brand"></span>
       </div>
       <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">Food & Drink</a></li>
+          <li><a href="#">McMenamins</a></li>
+          <li><a href="#">Bagdad Pub</a></li>
+          <li><a href="#">Other Theaters</a></li>
         </ul>
       </div>
     </div>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/lens-1209823_960_720.jpg">
-    </div>
-
-    <div class="item">
-      <img src="img/raspberries-1476204_960_720.jpg" >
-    </div>
-
-    <div class="item">
-      <img src="img/winter-1472915_960_720.jpg">
-    </div>
   </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    <div class="row hidden-xs">
-      <div class="col-xs-6">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <div class="col-xs-6">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-    </div>
+  <div class="container">
     <div class="row">
-      <div class="col-xs-6">
-        <img src="img/White-kitty-playing-with-chickens.jpg" class="img-responsive" alt="" />
-      </div>
+      <div class="col-xs-12 col-sm-8 pull-right">
+        <div class="clearfix" id="mainContent">
+          <div class="col-xs-12 col-sm-6">
+            <h3>Movie Showtimes</h3>
+            <div class="form-group">
+              <div class='input-group date' id='datetimepicker1'>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+              </div>
+            </div>
+            <p>
+              Minors are allowed only with a parent or guardian at any show.<br>
+              Choose date above and click showtimes on the right for online ticket purchases.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="quickTicket">
+              <h5>Finding Dory (TBC)</h5>
+              <p>
+                Running time 1:43
+              </p>
+              <div class="quickTicketTimes">
+                <h5>Buy Tickets</h5>
+                <div class="container row">
+                  <div class="time col-xs-6 ">
+                    <p>
+                      12:30 pm
+                    </p>
+                  </div>
+                  <div class="time col-xs-6">
+                    <p>
+                      3:30 pm
+                    </p>
+                  </div>
+                  <div class="time col-xs-6">
+                    <p>
+                      7:00 pm
+                    </p>
+                  </div>
+                  <div class="time col-xs-6">
+                    <p>
+                      10:15 pm
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Please be patient while we process your order.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="nowPlaying">
+          <h2>Now Playing</h2>
+          <div class="row">
+            <div class="poster col-xs-5">
+              <img src="img/finding-dory-poster.jpg" alt="" />
+            </div>
+            <div class="movieInfo col-xs-7">
+              <h4>Finding Dory (PG)</h4>
+              <div class="trailerButton">
+                View Trailer
+              </div>
+              <a href="http://www.imdb.com/title/tt2277860/">http://www.imdb.com/title/tt2277860/</a>
+              <p>
+                The friendly-but-forgetful blue tang fish reunites with her loved ones, and everyone learns a few things about the real meaning of family along the way.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="comingSoon">
+          <h2>Coming Soon</h2>
+          <div class="row">
+            <div class="poster col-xs-5">
+              <img src="img/ghostbusters-kristen-wiig-poster.jpg" alt="" />
+            </div>
+            <div class="movieInfo col-xs-7">
+              <h4>Ghostbusters</h4>
+              <div class="trailerButton">
+                View Trailer
+              </div>
+              <a href="http://www.imdb.com/title/tt1289401/">http://www.imdb.com/title/tt1289401/</a>
+              <p>
+                30 years after Ghostbusters took the world by storm, the beloved franchise makes its long-awaited return. Director Paul Feig brings his fresh take to the supernatural comedy, joined by some of the funniest actors working today.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="poster col-xs-5">
+              <img src="img/suicidesquad-poster-team-xeyes.jpg" alt="" />
+            </div>
+            <div class="movieInfo col-xs-7">
+              <h4>Suicide Squad</h4>
+              <div class="trailerButton">
+                View Trailer
+              </div>
+              <a href="http://www.imdb.com/title/tt1386697/">http://www.imdb.com/title/tt1386697/</a>
+              <p>
+                A secret government agency recruits imprisoned supervillains to execute dangerous black ops missions in exchange for clemency.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="prices">
+          <h2>Prices</h2>
+          <p>
+            $9 per ticket - Adults 5 p.m. and later<br>
+            $7.50 per ticket - Adults before 5 p.m.<br>
+            $6 per ticket - children 12 years old and under<br>
+          </p>
+        </div>
 
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
       </div>
-      <div class="col-sm-6">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          </div>
+      <div class="col-sm-4 pull-left" id="sidebar">
+        <div class="marquee">
+          <img src="img/marquee.png" class='hidden-xs' alt="" />
         </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        <div class="about">
+          <h3>About the Bagdad</h3>
+          <p>
+            Come experience our new 50% larger screen, 20,000-watt surround sound, state-of-the-art digital projector and new luxurious rocker seating at Portland’s Bagdad Theater!
+          </p>
+          <a href="#">The Bagdad Theater and Pub</a>
+          <h3>Getting to the Bagdad</h3>
+          <div class="mapDisplay">
+            <img src="img/Screen Shot 2016-07-07 at 2.59.27 PM.png" alt="" />
           </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          </div>
+          <p>
+            The Bagdad Theater is located in the heart of the Hawthorne District. Look for the large marquee sign!
+          </p>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+  </html>
